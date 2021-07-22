@@ -4,7 +4,7 @@ node_js:
 before_script:
   - npm install
 script: npm run build
-  deploy:
+deploy:
   local-dir: dist/collegues-front
   provider: pages
   skip-cleanup: true
